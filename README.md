@@ -10,7 +10,7 @@
 
 ## Состав проекта
 
-- `eureka-server` — service discovery
+- `discovery-server` — service discovery
 - `api-gateway` — единая точка входа и маршрутизация запросов
 - `order-service` — сервис заказов
 - `payment-service` — сервис платежей
@@ -28,7 +28,7 @@
 
 Сервисы запускаются отдельно, в следующем порядке:
 
-1. `eureka-server`
+1. `discovery-server`
 2. `api-gateway`
 3. `order-service`
 4. `payment-service`
